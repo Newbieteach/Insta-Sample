@@ -1,0 +1,131 @@
+
+.square{
+    height: 350px;
+    width: 345px;
+    border: 2px groove;
+    position: fixed;
+    top: 158px;
+    left: 800px;
+}
+.image1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+    color: rgb(64,64,64);
+}
+a:link, a:visited {
+  background-color: #4da6ff;
+  color: white;
+  padding: 3px 30px;
+  text-align: center;
+  text-align: match-parent;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  border-spacing: 10px;
+  position: fixed;
+  top: 408px;
+  left: 874px;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+a:hover, a:active {
+  background-color: #3399ff;
+}
+
+h3{
+  position: relative;
+  top: 68px;
+  left: 75px;
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.bluetext{
+    color: #4da6ff;
+    font-style: inherit
+}
+
+.bluetext: hover .bluetext:active{
+    background-color: #000000;   
+}
+
+.bluetext{
+    cursor: pointer;
+}
+
+.img1{
+    height: 560px;
+    width: 750px;
+    position: relative;
+    left:260px;
+    top: 10px;  
+}
+
+.img2{
+    height: 590px;
+    width: 560px;
+    position: relative;
+    right:550px;
+    top: 15px;
+    z-index: -5
+}
+
+.hlist{
+    display:flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.hlist li{
+    margin: o;
+    padding: 15px;
+    border-radius: 5px;
+    color: darkgray;
+    font-size: 13px;
+}
+
+.hlist li{
+    position: relative;
+    left: 280px;
+    bottom: -50px;
+}
+
+form{
+    position: relative;
+    left: 600px;
+    top: 50px;
+}
+
+select{
+    border: none;
+    outline: none;
+    color: darkgray;
+    font-size: 13px;
+}
+
+h4{
+   position: relative;
+    left:750px;
+    top: 17px;
+    padding:0 10px;
+}
+
+h4{
+    color: darkgray;
+    font-size: 13px;
+}
